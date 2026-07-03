@@ -593,7 +593,7 @@ const eliminatedCount = pool.filter(p => p.eliminated).length;
       <div className="header">
         <div className="logo masters-logo">
           <div className="masters-script">Masters</div>
-          <div className="masters-badge">2026</div>
+          <div className="masters-badge">2027</div>
           <div>LIVE</div>
         </div>
         <div className="title">

@@ -13,7 +13,7 @@ export const tournamentConfig = {
   jackpotRule: 'To win, your picks must include the Masters Champion. If no punter selects them, the prize pool jackpots.',
   heroImage: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=2400&q=85'
 };
-
+ 
 export const poolEntries = [
   { player: 'Barty', picks: ['Ben Griffin', 'Max Homa', 'Tom Kim'] },
   { player: 'Enright', picks: ['Tony Finau', 'Jordan Spieth', 'J.T. Poston'] },

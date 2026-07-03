@@ -3,12 +3,12 @@
 // SLASH_GOLF_TOURN_ID, SLASH_GOLF_YEAR, TOURNAMENT_STATE_ID.
 
 export const tournamentConfig = {
-  majorLabel: '90TH MASTERS TOURNAMENT',
+  majorLabel: '91ST MASTERS TOURNAMENT',
   title: 'MASTERS PICK 3 LIVE',
   venue: 'Augusta National Golf Club',
   location: 'Augusta, Georgia',
-  dates: 'April 9–12, 2026',
-  prizePool: '$3,500',
+  dates: 'April 8–11, 2027',
+  prizePool: '$1,800',
   tournamentTimezone: 'America/New_York',
   jackpotRule: 'To win, your picks must include the Masters Champion. If no punter selects them, the prize pool jackpots.',
   heroImage: '/masters-amen-corner.svg'

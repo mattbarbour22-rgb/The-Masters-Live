@@ -14,286 +14,81 @@ export const tournamentConfig = {
   heroImage: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=2400&q=85'
 };
  
-export const poolEntries = [
-  {
-    player: "Barty",
-    picks: ["Bryson DeChambeau", "Tommy Fleetwood", "Cameron Young"]
-  },
-  {
-    player: "Enright",
-    picks: ["Bryson DeChambeau", "Scottie Scheffler", "Jon Rahm"]
-  },
-  {
-    player: "Roche SES",
-    picks: ["Scottie Scheffler", "Bryson DeChambeau", "Rory McIlroy"]
-  },
-  {
-    player: "Kitch",
-    picks: ["Scottie Scheffler", "Xander Schauffele", "Justin Rose"]
-  },
-  {
-    player: "Brom",
-    picks: ["Jon Rahm", "Tommy Fleetwood", "Min Woo Lee"]
-  },
-  {
-    player: "Shaw",
-    picks: ["Bryson DeChambeau", "Tommy Fleetwood", "Matt Fitzpatrick"]
-  },
-  {
-    player: "Brian Irish",
-    picks: ["Matt Fitzpatrick", "Justin Rose", "Ludvig Åberg"]
-  },
-  {
-    player: "Jonesy",
-    picks: ["Cameron Young", "Rory McIlroy", "Justin Thomas"]
-  },
-  {
-    player: "Haycock Snr",
-    picks: ["Corey Conners", "Ludvig Åberg", "Shane Lowry"]
-  },
-  {
-    player: "Mal J",
-    picks: ["Bryson DeChambeau", "Matt Fitzpatrick", "Akshay Bhatia"]
-  },
-  {
-    player: "Doc Campbell",
-    picks: ["Scottie Scheffler", "Patrick Reed", "Bryson DeChambeau"]
-  },
-  {
-    player: "T Coleman",
-    picks: ["Scottie Scheffler", "Xander Schauffele", "Ludvig Åberg"]
-  },
-  {
-    player: "A Rose",
-    picks: ["Bryson DeChambeau", "Xander Schauffele", "Cameron Young"]
-  },
-  {
-    player: "D Haycock",
-    picks: ["Justin Rose", "Patrick Reed", "Jacob Bridgeman"]
-  },
-  {
-    player: "P Langley",
-    picks: ["Rory McIlroy", "Bryson DeChambeau", "Cameron Young"]
-  },
-  {
-    player: "T Wallace",
-    picks: ["Matt Fitzpatrick", "Tommy Fleetwood", "Ludvig Åberg"]
-  },
-  {
-    player: "K Ferg",
-    picks: ["Patrick Reed", "J.J. Spaun", "Ludvig Åberg"]
-  },
-  {
-    player: "JB",
-    picks: ["Scottie Scheffler", "Jon Rahm", "Tommy Fleetwood"]
-  },
-  {
-    player: "D McCarthy",
-    picks: ["Tommy Fleetwood", "Xander Schauffele", "Jacob Bridgeman"]
-  },
-  {
-    player: "Nath Ferg",
-    picks: ["Cameron Young", "Matt Fitzpatrick", "Chris Gotterup"]
-  },
-  {
-    player: "Muzza T",
-    picks: ["Ryan Fox", "Tyrrell Hatton", "Rory McIlroy"]
-  },
-  {
-    player: "D Donnelly",
-    picks: ["Bryson DeChambeau", "Patrick Reed", "Si Woo Kim"]
-  },
-  {
-    player: "Hancock",
-    picks: ["Shane Lowry", "Tommy Fleetwood", "Ludvig Åberg"]
-  },
-  {
-    player: "B Ashford",
-    picks: ["Bryson DeChambeau", "Ludvig Åberg", "Justin Rose"]
-  },
-  {
-    player: "Bradley C",
-    picks: ["Patrick Reed", "Bryson DeChambeau", "Matt Fitzpatrick"]
-  },
-  {
-    player: "Sloanie",
-    picks: ["Hideki Matsuyama", "Ludvig Åberg", "Rory McIlroy"]
-  },
-  {
-    player: "R Fowler",
-    picks: ["Xander Schauffele", "Rory McIlroy", "Cameron Young"]
-  },
-  {
-    player: "Sparky",
-    picks: ["Akshay Bhatia", "Robert MacIntyre", "Tommy Fleetwood"]
-  },
-  {
-    player: "Barley",
-    picks: ["Scottie Scheffler", "Ludvig Åberg", "Patrick Reed"]
-  },
-  {
-    player: "Pete Holly",
-    picks: ["Gary Woodland", "Bryson DeChambeau", "Tommy Fleetwood"]
-  },
-  {
-    player: "Timmy S",
-    picks: ["Justin Rose", "Tommy Fleetwood", "Ludvig Åberg"]
-  },
-  {
-    player: "Mr Grant",
-    picks: ["Scottie Scheffler", "Ludvig Åberg", "Matt Fitzpatrick"]
-  },
-  {
-    player: "Greg B",
-    picks: ["Rory McIlroy", "Tommy Fleetwood", "Ludvig Åberg"]
-  },
-  {
-    player: "JD Boy",
-    picks: ["Scottie Scheffler", "Xander Schauffele", "Ludvig Åberg"]
-  },
-  {
-    player: "Mr Manson",
-    picks: ["Akshay Bhatia", "Ludvig Åberg", "Ryan Fox"]
-  },
 
-    {
-    player: "G Ponting",
-    picks: ["Nicolai Højgaard", "Robert MacIntyre", "Si Woo Kim"]
-  },
-  {
-    player: "R McKnight",
-    picks: ["Patrick Reed", "Marco Penge", "Jacob Bridgeman"]
-  },
-  {
-    player: "Chalkey",
-    picks: ["Cameron Young", "Matt Fitzpatrick", "Patrick Reed"]
-  },
-  {
-    player: "Budgie",
-    picks: ["Matt Fitzpatrick", "Sepp Straka", "Jacob Bridgeman"]
-  },
-  {
-    player: "Lamming",
-    picks: ["Ludvig Åberg", "Scottie Scheffler", "Viktor Hovland"]
-  },
-  {
-    player: "A Bull",
-    picks: ["Collin Morikawa", "Justin Rose", "Bryson DeChambeau"]
-  },
-  {
-    player: "Lynda R",
-    picks: ["Ludvig Åberg", "Jon Rahm", "Justin Rose"]
-  },
-  {
-    player: "Cam P",
-    picks: ["Justin Rose", "Cameron Young", "Ludvig Åberg"]
-  },
-  {
-    player: "Wazza SB",
-    picks: ["Matt Fitzpatrick", "Robert MacIntyre", "Akshay Bhatia"]
-  },
-  {
-    player: "Mac The Knife",
-    picks: ["Rory McIlroy", "Matt McCarty", "Jason Day"]
-  },
-  {
-    player: "Crusader",
-    picks: ["Scottie Scheffler", "Matt Fitzpatrick", "Bryson DeChambeau"]
-  },
-  {
-    player: "Maccas",
-    picks: ["Adam Scott", "Marco Penge", "Patrick Reed"]
-  },
-  {
-    player: "Matt B",
-    picks: ["Scottie Scheffler", "Ludvig Åberg", "Jon Rahm"]
-  },
-  {
-    player: "The Wrangler",
-    picks: ["Bryson DeChambeau", "Tommy Fleetwood", "Robert MacIntyre"]
-  },
-  {
-    player: "AD",
-    picks: ["Bryson DeChambeau", "Jon Rahm", "Xander Schauffele"]
-  },
-  {
-    player: "J Turner",
-    picks: ["Jon Rahm", "Xander Schauffele", "Ludvig Åberg"]
-  },
-  {
-    player: "M Sanders",
-    picks: ["Jon Rahm", "Matt Fitzpatrick", "Xander Schauffele"]
-  },
-  {
-    player: "Nick Fitz",
-    picks: ["Ludvig Åberg", "Cameron Young", "Adam Scott"]
-  },
-  {
-    player: "M Little",
-    picks: ["Matt Fitzpatrick", "Ludvig Åberg", "Scottie Scheffler"]
-  },
-  {
-    player: "T Rowe",
-    picks: ["Rory McIlroy", "Bryson DeChambeau", "Matt Fitzpatrick"]
-  },
-  {
-    player: "J Tilley",
-    picks: ["Hideki Matsuyama", "Justin Rose", "Jacob Bridgeman"]
-  },
-  {
-    player: "Arnie Palmer",
-    picks: ["Patrick Reed", "Ludvig Åberg", "Bryson DeChambeau"]
-  },
-  {
-    player: "K. Sanders",
-    picks: ["Justin Rose", "Xander Schauffele", "Cameron Young"]
-  },
-  {
-    player: "L Adams",
-    picks: ["Tommy Fleetwood", "Brooks Koepka", "Nicolai Højgaard"]
-  },
-  {
-    player: "K McGinness",
-    picks: ["Tommy Fleetwood", "Matt Fitzpatrick", "Justin Rose"]
-  },
-  {
-    player: "Baylis",
-    picks: ["Scottie Scheffler", "Ludvig Åberg", "Xander Schauffele"]
-  },
-  {
-    player: "D Tucker",
-    picks: ["Ludvig Åberg", "Patrick Reed", "Jon Rahm"]
-  },
-  {
-    player: "Kev Martin",
-    picks: ["Robert MacIntyre", "Corey Conners", "Ludvig Åberg"]
-  },
-  {
-    player: "P Mac",
-    picks: ["Cameron Young", "Xander Schauffele", "Ludvig Åberg"]
-  },
-  {
-    player: "J Barbour",
-    picks: ["Bryson DeChambeau", "Cameron Young", "Ludvig Åberg"]
-  },
-  {
-    player: "P Lund",
-    picks: ["Cameron Young", "Ludvig Åberg", "Justin Rose"]
-  },
-  {
-    player: "Trump H",
-    picks: ["Bryson DeChambeau", "Xander Schauffele", "Chris Gotterup"]
-  },
-  {
-    player: "John Edge",
-    picks: ["Xander Schauffele", "Hideki Matsuyama", "Cameron Young"]
-  },
-  {
-    player: "Trent W",
-    picks: ["Ludvig Åberg", "Jon Rahm", "Matt Fitzpatrick"]
-  },
-  {
-    player: "Sir Steve",
-    picks: ["Jon Rahm", "Scottie Scheffler", "Ludvig Åberg"]
-  }
+  export const poolEntries = [
+  { player: 'Sparky', picks: ['Ryan Fox', 'Tommy Fleetwood', 'Rory McIlroy'] },
+  { player: 'Roche SES', picks: ['Cameron Young', 'Tommy Fleetwood', 'Rory McIlroy'] },
+  { player: 'Mac The Knife', picks: ['Cameron Young', 'Kristoffer Reitan', 'Keita Nakajima'] },
+  { player: 'J Turner', picks: ['Sam Burns', 'Scottie Scheffler', 'Ludvig Åberg'] },
+  { player: 'A Rose', picks: ['Scottie Scheffler', 'Tommy Fleetwood', 'Tyrrell Hatton'] },
+  { player: 'Greg B', picks: ['Tommy Fleetwood', 'Ludvig Åberg', 'Rory McIlroy'] },
+  { player: 'Kev Martin', picks: ['Tommy Fleetwood', 'Ludvig Åberg', 'Rory McIlroy'] },
+  { player: 'Katie D', picks: ['Tommy Fleetwood', 'Chris Gotterup', 'Xander Schauffele'] },
+  { player: 'The Wrangler', picks: ['Scottie Scheffler', 'Xander Schauffele', 'Robert MacIntyre'] },
+  { player: 'Barty', picks: ['Scottie Scheffler', 'Xander Schauffele', 'Rory McIlroy'] },
+  { player: 'JB', picks: ['Tommy Fleetwood', 'Xander Schauffele', 'Rory McIlroy'] },
+  { player: 'L Adams', picks: ['Scottie Scheffler', 'Collin Morikawa', 'Rory McIlroy'] },
+  { player: 'P Mac', picks: ['Scottie Scheffler', 'Collin Morikawa', 'Rory McIlroy'] },
+  { player: 'JD Boy', picks: ['Scottie Scheffler', 'Xander Schauffele', 'Jon Rahm'] },
+  { player: 'Enright', picks: ['Scottie Scheffler', 'Chris Gotterup', 'Wyndham Clark'] },
+  { player: 'Jonesy', picks: ['Tommy Fleetwood', 'Robert MacIntyre', 'Rory McIlroy'] },
+  { player: 'Chalkey', picks: ['Tommy Fleetwood', 'Robert MacIntyre', 'Rory McIlroy'] },
+  { player: 'J Tilley', picks: ['Scottie Scheffler', 'Robert MacIntyre', 'Rory McIlroy'] },
+  { player: 'Spinetto', picks: ['Scottie Scheffler', 'Brooks Koepka', 'Rory McIlroy'] },
+  { player: 'Trump H', picks: ['Scottie Scheffler', 'Shane Lowry', 'Padraig Harrington'] },
+  { player: 'Matt B', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Jon Rahm'] },
+  { player: 'Sloanie', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Tyrrell Hatton'] },
+  { player: 'G Ponting', picks: ['Tommy Fleetwood', 'Jon Rahm', 'Tyrrell Hatton'] },
+  { player: 'Kimbo Slice', picks: ['Scottie Scheffler', 'Patrick Reed', 'Matt Fitzpatrick'] },
+  { player: 'M Sanders', picks: ['Russell Henley', 'Robert MacIntyre', 'Matt Fitzpatrick'] },
+  { player: 'Bradley C', picks: ['Adam Scott', 'Justin Thomas', 'Keegan Bradley'] },
+  { player: 'Nick Fitz', picks: ['Ludvig Åberg', 'Justin Thomas', 'Matt Fitzpatrick'] },
+  { player: 'P Lund', picks: ['Russell Henley', 'Tyrrell Hatton', 'Brian Harman'] },
+  { player: 'Up the Whas', picks: ['Chris Gotterup', 'Xander Schauffele', 'Rory McIlroy'] },
+  { player: 'Mal J', picks: ['Chris Gotterup', 'Robert MacIntyre', 'Matt Fitzpatrick'] },
+  { player: 'Shaw', picks: ['Xander Schauffele', 'Patrick Reed', 'Ben Griffin'] },
+  { player: 'D Haycock', picks: ['Chris Gotterup', 'Patrick Reed', 'Tyrrell Hatton'] },
+  { player: 'Maccas', picks: ['Collin Morikawa', 'Eugenio Chacarra', 'Viktor Hovland'] },
+  { player: 'Lamming', picks: ['Shane Lowry', 'Rory McIlroy', 'Joaquin Niemann'] },
+  { player: 'T Rowe', picks: ['Shane Lowry', 'Tyrrell Hatton', 'Justin Rose'] },
+  { player: 'AD', picks: ['Rory McIlroy', 'Min Woo Lee', 'Matt Fitzpatrick'] },
+  { player: 'H Naka', picks: ['Cameron Young', 'Tommy Fleetwood', 'Akshay Bhatia'] },
+  { player: 'M Little', picks: ['Cameron Young', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'Nath Ferg', picks: ['Cameron Young', 'Justin Rose', 'Matt Fitzpatrick'] },
+  { player: 'Cam P', picks: ['Sam Burns', 'Scottie Scheffler', 'Matt Fitzpatrick'] },
+  { player: 'T Coleman', picks: ['Scottie Scheffler', 'Tommy Fleetwood', 'Viktor Hovland'] },
+  { player: 'Crusader', picks: ['Scottie Scheffler', 'Tommy Fleetwood', 'Matt Fitzpatrick'] },
+  { player: 'Baylis', picks: ['Scottie Scheffler', 'Tommy Fleetwood', 'Justin Rose'] },
+  { player: 'Mr Grant', picks: ['Scottie Scheffler', 'Xander Schauffele', 'Matt Fitzpatrick'] },
+  { player: 'Brian Irish', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Tom Kim'] },
+  { player: 'Muzza T', picks: ['Tommy Fleetwood', 'Rory McIlroy', 'Tom Kim'] },
+  { player: 'Pete Holly', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Justin Rose'] },
+  { player: 'Timmy S', picks: ['Tommy Fleetwood', 'Rory McIlroy', 'Aaron Rai'] },
+  { player: 'Arnie Palmer', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Justin Rose'] },
+  { player: 'K McGinness', picks: ['Tommy Fleetwood', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'Trent W', picks: ['Tommy Fleetwood', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'Wazza SB', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'Sir Steve', picks: ['Scottie Scheffler', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'T Wallace', picks: ['Tommy Fleetwood', 'Tyrrell Hatton', 'Matt Fitzpatrick'] },
+  { player: 'Hancock', picks: ['Tommy Fleetwood', 'Tyrrell Hatton', 'Justin Rose'] },
+  { player: 'B Ashford', picks: ['Tommy Fleetwood', 'Tyrrell Hatton', 'Matt Fitzpatrick'] },
+  { player: 'Barley', picks: ['Tommy Fleetwood', 'Tyrrell Hatton', 'Nicolai Højgaard'] },
+  { player: 'Nat M', picks: ['Scottie Scheffler', 'Tyrrell Hatton', 'Matt Fitzpatrick'] },
+  { player: 'J Barbour', picks: ['Tommy Fleetwood', 'Justin Rose', 'Matt Fitzpatrick'] },
+  { player: 'Haycock Snr', picks: ['Ludvig Åberg', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'D Donnelly', picks: ['Russell Henley', 'Justin Rose', 'Wyndham Clark'] },
+  { player: 'Brom', picks: ['Chris Gotterup', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'R Fowler', picks: ['Chris Gotterup', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'Budgie', picks: ['Collin Morikawa', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'Lynda R', picks: ['Xander Schauffele', 'Justin Rose', 'Matt Fitzpatrick'] },
+  { player: 'John Edge', picks: ['Collin Morikawa', 'Justin Rose', 'Tom Kim'] },
+  { player: 'P Langley', picks: ['Robert MacIntyre', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'A Bull', picks: ['Robert MacIntyre', 'Rory McIlroy', 'Wyndham Clark'] },
+  { player: 'D Tucker', picks: ['Robert MacIntyre', 'Rory McIlroy', 'Matt Fitzpatrick'] },
+  { player: 'D McCarthy', picks: ['Robert MacIntyre', 'Matt Fitzpatrick', 'Viktor Hovland'] },
+  { player: 'Mr Manson', picks: ['Robert MacIntyre', 'Tom Kim', 'Matt Fitzpatrick'] },
+  { player: 'R McKnight', picks: ['Robert MacIntyre', 'Joaquin Niemann', 'Matt Fitzpatrick'] },
+  { player: 'Kitch', picks: ['Rory McIlroy', 'Tom Kim', 'Matt Fitzpatrick'] },
+  { player: 'Doc Campbell', picks: ['Rory McIlroy', 'Wyndham Clark', 'Matt Fitzpatrick'] },
+  { player: 'K Ferg', picks: ['Tyrrell Hatton', 'Matt Fitzpatrick', 'Viktor Hovland'] },
 ];

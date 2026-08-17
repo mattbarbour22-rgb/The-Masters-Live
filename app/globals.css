@@ -33,7 +33,6 @@ body {
   color: white;
   min-height: 100vh;
 }
-
 * { box-sizing: border-box; }
 .page { max-width: 1320px; margin: auto; padding: 26px; }
 .header { display: flex; gap: 28px; align-items: flex-start; }

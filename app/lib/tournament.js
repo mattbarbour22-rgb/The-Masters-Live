@@ -11,7 +11,7 @@ export const tournamentConfig = {
   prizePool: '$1,800',
   tournamentTimezone: 'America/Chicago',
   jackpotRule: 'To win, your picks must include the Masters Champion. If no punter selects them, the prize pool jackpots.',
-  heroImage: '/augusta.jpg'
+  heroImage: '/augusta1.jpg'
 };
  
 export const poolEntries = [

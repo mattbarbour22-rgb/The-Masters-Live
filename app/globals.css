@@ -21,10 +21,10 @@ body {
   background:
     linear-gradient(
       90deg,
-      rgba(0, 30, 20, 0.82) 0%,
-      rgba(0, 58, 39, 0.48) 42%,
-      rgba(0, 58, 39, 0.18) 78%,
-      rgba(0, 58, 39, 0.08) 100%
+      rgba(0,30,20,.82) 0%,
+      rgba(0,58,39,.48) 42%,
+      rgba(0,58,39,.18) 78%,
+      rgba(0,58,39,.08) 100%
     ),
     url("/augusta1.jpg");
 
@@ -54,7 +54,7 @@ body {
 }
 
 .logo {
-  border-right: 1px solid rgba(255, 255, 255, 0.34);
+  border-right: 1px solid rgba(255,255,255,.34);
   padding-right: 24px;
   text-align: center;
   min-width: 150px;
@@ -63,12 +63,12 @@ body {
 .logo h1 {
   margin: 0;
   font-size: 62px;
-  letter-spacing: -0.04em;
+  letter-spacing: -.04em;
 }
 
 .logo div {
   font-weight: 900;
-  letter-spacing: 0.14em;
+  letter-spacing: .14em;
   color: var(--sand);
 }
 
@@ -81,10 +81,10 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 36px;
   font-weight: 900;
-  letter-spacing: 0.02em !important;
+  letter-spacing: .02em !important;
   color: white !important;
   line-height: 1;
-  text-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 4px 14px rgba(0,0,0,.45);
 }
 
 .masters-badge {
@@ -94,30 +94,30 @@ body {
   border: 2px solid var(--masters-gold);
   border-radius: 999px;
   color: var(--masters-gold) !important;
-  background: rgba(0, 55, 38, 0.86);
-  letter-spacing: 0.12em !important;
+  background: rgba(0,55,38,.86);
+  letter-spacing: .12em !important;
 }
 
 .eyebrow {
   color: var(--sand);
   font-weight: 900;
-  letter-spacing: 0.2em;
+  letter-spacing: .2em;
   margin-bottom: 7px;
 }
 
 .title h2 {
   margin: 0;
   font-size: 64px;
-  letter-spacing: 0.03em;
-  line-height: 0.96;
-  text-shadow: 0 5px 18px rgba(0, 0, 0, 0.52);
+  letter-spacing: .03em;
+  line-height: .96;
+  text-shadow: 0 5px 18px rgba(0,0,0,.52);
 }
 
 .subtitle {
   font-size: 22px;
   color: #fff8df;
   margin-top: 10px;
-  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.48);
+  text-shadow: 0 3px 12px rgba(0,0,0,.48);
 }
 
 .livebar {
@@ -138,8 +138,8 @@ body {
   font-size: 30px;
   font-weight: 950;
   border-radius: 6px;
-  border: 2px solid rgba(255, 255, 255, 0.65);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(255,255,255,.65);
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
 }
 
 .updated {
@@ -168,7 +168,7 @@ body {
 .panel {
   background: var(--paper);
   color: var(--ink);
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.42);
+  box-shadow: 0 24px 48px rgba(0,0,0,.42);
   border-radius: 4px;
   overflow: hidden;
   border: 5px solid var(--masters-green-dark);
@@ -187,7 +187,7 @@ body {
   font-size: 24px;
   font-weight: 950;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: .08em;
   text-shadow: 0 1px 0 white;
 }
 
@@ -204,7 +204,7 @@ th {
   text-align: left;
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: .06em;
   border-bottom: 4px solid var(--masters-gold);
 }
 
@@ -229,10 +229,10 @@ th:first-child {
 tbody td:first-child {
   color: #fffdf3;
   background: var(--masters-green-dark);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255,255,255,.16);
   font-family: "Courier New", monospace;
   font-weight: 950;
-  letter-spacing: 0.03em;
+  letter-spacing: .03em;
 }
 
 .player {
@@ -285,28 +285,78 @@ tbody td:first-child {
   display: table-row;
 }
 
-/* PROJECTED POOL LEADER
-   IMPORTANT: no second Augusta image here.
-   The main page background now shows through.
+/* =========================================================
+   MASTERS PROJECTED POOL LEADER
+   ========================================================= */
+
+/*
+   IMPORTANT:
+   The Masters JSX does NOT have .summary-panel.
+
+   The projected leader is the FIRST .panel inside
+   the right-hand grid column.
+
+   So target THAT exact panel only.
 */
-.leader-box {
+
+.grid > div > .panel:first-child {
+  background: rgba(0,54,38,.34) !important;
+  color: white;
+}
+
+/*
+   The projected leader's white .panel-title stays solid.
+   This gives a clean heading while the body shows Augusta.
+*/
+
+.grid > div > .panel:first-child .panel-title {
+  background: #fffdf3;
+  color: var(--masters-green-dark);
+}
+
+/*
+   THIS is the important part:
+   do NOT load augusta1.jpg again here.
+
+   The Augusta image is already on BODY.
+   The projected leader simply lets that image show through.
+*/
+
+.grid > div > .panel:first-child .leader-box {
   position: relative;
   overflow: hidden;
   padding: 28px;
+  background: transparent !important;
+  background-image: none !important;
   color: white;
+  border: 0 !important;
+}
+
+/*
+   Dark transparent overlay for readability.
+   The actual Augusta image underneath remains visible.
+*/
+
+.grid > div > .panel:first-child .leader-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 
   background:
     linear-gradient(
       100deg,
-      rgba(0, 42, 29, 0.62) 0%,
-      rgba(0, 78, 54, 0.42) 52%,
-      rgba(0, 62, 42, 0.20) 100%
+      rgba(0,42,29,.58) 0%,
+      rgba(0,78,54,.38) 52%,
+      rgba(0,62,42,.18) 100%
     );
-
-  border-top: 1px solid rgba(242, 201, 76, 0.35);
 }
 
-.leader-box > * {
+/*
+   Keep all actual content above the transparent overlay.
+*/
+
+.grid > div > .panel:first-child .leader-box > * {
   position: relative;
   z-index: 1;
 }
@@ -316,8 +366,8 @@ tbody td:first-child {
   font-weight: 950;
   color: white;
   line-height: 1;
-  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
-  letter-spacing: 0.05em;
+  text-shadow: 0 4px 16px rgba(0,0,0,.70);
+  letter-spacing: .05em;
 }
 
 .reason {
@@ -325,7 +375,7 @@ tbody td:first-child {
   font-size: 20px;
   line-height: 1.45;
   color: #fff8df;
-  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 3px 10px rgba(0,0,0,.70);
 }
 
 .leader-updated {
@@ -334,6 +384,7 @@ tbody td:first-child {
   color: #fff4c2;
   line-height: 1.45;
   font-weight: 800;
+  text-shadow: 0 2px 8px rgba(0,0,0,.65);
 }
 
 .stat-row {
@@ -344,11 +395,11 @@ tbody td:first-child {
 }
 
 .stat-row div {
-  background: rgba(255, 253, 245, 0.96);
-  border: 2px solid rgba(242, 201, 76, 0.76);
+  background: rgba(255,253,245,.92);
+  border: 2px solid rgba(242,201,76,.76);
   border-radius: 8px;
   padding: 12px;
-  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 9px 18px rgba(0,0,0,.25);
 }
 
 .stat-row strong {
@@ -367,10 +418,17 @@ tbody td:first-child {
   margin-top: 6px;
 }
 
+/*
+   IMPORTANT:
+   The pool leaderboard BELOW the projected leader
+   is deliberately NOT made transparent here.
+   It keeps its existing white/cream appearance.
+*/
+
 .note {
   margin-top: 18px;
-  background: rgba(0, 54, 38, 0.94);
-  border: 2px solid rgba(242, 201, 76, 0.8);
+  background: rgba(0,54,38,.94);
+  border: 2px solid rgba(242,201,76,.8);
   padding: 16px 18px;
   font-size: 15px;
   color: #fff4c2;
@@ -398,7 +456,7 @@ tbody td:first-child {
 }
 
 .eliminated-row td {
-  opacity: 0.52;
+  opacity: .52;
   background: #e5e0d0 !important;
 }
 
@@ -411,10 +469,10 @@ tbody td:first-child {
   opacity: 1;
   color: #991b1b;
   font-weight: 950;
-  font-size: 0.72rem;
+  font-size: .72rem;
 }
 
-@media (max-width: 1000px) {
+@media(max-width:1000px) {
   .page {
     padding: 18px;
   }

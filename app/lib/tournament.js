@@ -9,7 +9,7 @@ export const tournamentConfig = {
   location: 'Augusta, Georgia',
   dates: 'April 8–11, 2027',
   prizePool: '$1,800',
-  tournamentTimezone: 'America/Chicago',
+  tournamentTimezone: 'America/New_York',
   jackpotRule: 'To win, your picks must include the Masters Champion. If no punter selects them, the prize pool jackpots.',
   heroImage: '/augusta1.jpg'
 };
